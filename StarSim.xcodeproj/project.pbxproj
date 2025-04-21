@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F97153D32DB570B600D6EE2B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F97153D22DB570B100D6EE2B /* main.cpp */; };
+		F97153ED2DB575F900D6EE2B /* imgui_impl_glfw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F97153EA2DB575F900D6EE2B /* imgui_impl_glfw.cpp */; };
+		F97153EE2DB575F900D6EE2B /* imgui_impl_opengl3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F97153EB2DB575F900D6EE2B /* imgui_impl_opengl3.cpp */; };
+		F97153EF2DB575F900D6EE2B /* imgui_widgets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F97153EC2DB575F900D6EE2B /* imgui_widgets.cpp */; };
+		F97153F02DB575F900D6EE2B /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F97153E82DB575F900D6EE2B /* imgui.cpp */; };
+		F97153F12DB575F900D6EE2B /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F97153E92DB575F900D6EE2B /* imgui_draw.cpp */; };
+		F97153F32DB5760F00D6EE2B /* imgui_tables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F97153F22DB5760F00D6EE2B /* imgui_tables.cpp */; };
+		F97F982C2838E35D00B018C1 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97F982B2838E35D00B018C1 /* OpenGL.framework */; };
+		F97F982E2838E38200B018C1 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F97F982D2838E38200B018C1 /* libglfw.3.3.dylib */; };
+		F9B83C57283A209E00E99EB5 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = F9B83C56283A209E00E99EB5 /* glad.c */; };
+		F9BCDB9A2839136E0098F663 /* Star.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9BCDB882839136D0098F663 /* Star.cpp */; };
+		F9BCDB9B2839136E0098F663 /* VertexBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9BCDB892839136D0098F663 /* VertexBuffer.cpp */; };
+		F9BCDB9C2839136E0098F663 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9BCDB8A2839136D0098F663 /* Shader.cpp */; };
+		F9BCDB9D2839136E0098F663 /* Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9BCDB8C2839136E0098F663 /* Renderer.cpp */; };
+		F9BCDB9E2839136E0098F663 /* VertexArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9BCDB8F2839136E0098F663 /* VertexArray.cpp */; };
+		F9BCDB9F2839136E0098F663 /* System.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9BCDB922839136E0098F663 /* System.cpp */; };
+		F9BCDBA02839136E0098F663 /* Shape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9BCDB942839136E0098F663 /* Shape.cpp */; };
+		F9BCDBA9283913960098F663 /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9BCDBA2283913960098F663 /* Camera.cpp */; };
+		F9BCDBAB283913960098F663 /* Panel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9BCDBA4283913960098F663 /* Panel.cpp */; };
+		F9BCDBAC283913960098F663 /* Planet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9BCDBA6283913960098F663 /* Planet.cpp */; };
+		F9BCDBAE283913960098F663 /* Body.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9BCDBA8283913960098F663 /* Body.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F97F981D2838E1ED00B018C1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F97153D22DB570B100D6EE2B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F97153E82DB575F900D6EE2B /* imgui.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imgui.cpp; sourceTree = "<group>"; };
+		F97153E92DB575F900D6EE2B /* imgui_draw.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_draw.cpp; sourceTree = "<group>"; };
+		F97153EA2DB575F900D6EE2B /* imgui_impl_glfw.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_impl_glfw.cpp; sourceTree = "<group>"; };
+		F97153EB2DB575F900D6EE2B /* imgui_impl_opengl3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_impl_opengl3.cpp; sourceTree = "<group>"; };
+		F97153EC2DB575F900D6EE2B /* imgui_widgets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_widgets.cpp; sourceTree = "<group>"; };
+		F97153F22DB5760F00D6EE2B /* imgui_tables.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_tables.cpp; sourceTree = "<group>"; };
+		F97F981F2838E1ED00B018C1 /* StarSim */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StarSim; sourceTree = BUILT_PRODUCTS_DIR; };
+		F97F98292838E2B800B018C1 /* dependencies */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dependencies; sourceTree = "<group>"; };
+		F97F982B2838E35D00B018C1 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		F97F982D2838E38200B018C1 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = StarSim/dependencies/library/libglfw.3.3.dylib; sourceTree = "<group>"; };
+		F9B83C56283A209E00E99EB5 /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glad.c; sourceTree = "<group>"; };
+		F9B83D5D283A374000E99EB5 /* Panel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Panel.h; sourceTree = "<group>"; };
+		F9B83D5E283A37AD00E99EB5 /* Camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		F9BCDB882839136D0098F663 /* Star.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Star.cpp; sourceTree = "<group>"; };
+		F9BCDB892839136D0098F663 /* VertexBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VertexBuffer.cpp; sourceTree = "<group>"; };
+		F9BCDB8A2839136D0098F663 /* Shader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shader.cpp; sourceTree = "<group>"; };
+		F9BCDB8B2839136D0098F663 /* System.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = System.h; sourceTree = "<group>"; };
+		F9BCDB8C2839136E0098F663 /* Renderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Renderer.cpp; sourceTree = "<group>"; };
+		F9BCDB8D2839136E0098F663 /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		F9BCDB8E2839136E0098F663 /* VertexBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexBuffer.h; sourceTree = "<group>"; };
+		F9BCDB8F2839136E0098F663 /* VertexArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VertexArray.cpp; sourceTree = "<group>"; };
+		F9BCDB902839136E0098F663 /* VertexArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexArray.h; sourceTree = "<group>"; };
+		F9BCDB912839136E0098F663 /* Shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
+		F9BCDB922839136E0098F663 /* System.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = System.cpp; sourceTree = "<group>"; };
+		F9BCDB932839136E0098F663 /* VertexBufferAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexBufferAttribute.h; sourceTree = "<group>"; };
+		F9BCDB942839136E0098F663 /* Shape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shape.cpp; sourceTree = "<group>"; };
+		F9BCDB952839136E0098F663 /* vertexShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vertexShader.glsl; sourceTree = "<group>"; };
+		F9BCDB962839136E0098F663 /* Renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
+		F9BCDB972839136E0098F663 /* Planet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Planet.h; sourceTree = "<group>"; };
+		F9BCDB982839136E0098F663 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		F9BCDB992839136E0098F663 /* Star.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Star.h; sourceTree = "<group>"; };
+		F9BCDBA1283913960098F663 /* Body.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Body.h; sourceTree = "<group>"; };
+		F9BCDBA2283913960098F663 /* Camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Camera.cpp; sourceTree = "<group>"; };
+		F9BCDBA4283913960098F663 /* Panel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Panel.cpp; sourceTree = "<group>"; };
+		F9BCDBA5283913960098F663 /* fragmentShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fragmentShader.glsl; sourceTree = "<group>"; };
+		F9BCDBA6283913960098F663 /* Planet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Planet.cpp; sourceTree = "<group>"; };
+		F9BCDBA8283913960098F663 /* Body.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Body.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F97F981C2838E1ED00B018C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97F982E2838E38200B018C1 /* libglfw.3.3.dylib in Frameworks */,
+				F97F982C2838E35D00B018C1 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F97F98162838E1ED00B018C1 = {
+			isa = PBXGroup;
+			children = (
+				F97F98212838E1ED00B018C1 /* StarSim */,
+				F97F98202838E1ED00B018C1 /* Products */,
+				F97F982A2838E35D00B018C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F97F98202838E1ED00B018C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F97F981F2838E1ED00B018C1 /* StarSim */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F97F98212838E1ED00B018C1 /* StarSim */ = {
+			isa = PBXGroup;
+			children = (
+				F97153D22DB570B100D6EE2B /* main.cpp */,
+				F9BCDB962839136E0098F663 /* Renderer.h */,
+				F9BCDB8C2839136E0098F663 /* Renderer.cpp */,
+				F9B83D5E283A37AD00E99EB5 /* Camera.h */,
+				F9BCDBA2283913960098F663 /* Camera.cpp */,
+				F9B83D5D283A374000E99EB5 /* Panel.h */,
+				F9BCDBA4283913960098F663 /* Panel.cpp */,
+				F9BCDBA1283913960098F663 /* Body.h */,
+				F9BCDBA8283913960098F663 /* Body.cpp */,
+				F9BCDB972839136E0098F663 /* Planet.h */,
+				F9BCDBA6283913960098F663 /* Planet.cpp */,
+				F9BCDB982839136E0098F663 /* Settings.h */,
+				F9BCDB922839136E0098F663 /* System.cpp */,
+				F9BCDB8B2839136D0098F663 /* System.h */,
+				F9BCDB8A2839136D0098F663 /* Shader.cpp */,
+				F9BCDB912839136E0098F663 /* Shader.h */,
+				F9BCDB942839136E0098F663 /* Shape.cpp */,
+				F9BCDB8D2839136E0098F663 /* Shape.h */,
+				F9BCDB882839136D0098F663 /* Star.cpp */,
+				F9BCDB992839136E0098F663 /* Star.h */,
+				F9BCDB8F2839136E0098F663 /* VertexArray.cpp */,
+				F9BCDB902839136E0098F663 /* VertexArray.h */,
+				F9BCDB892839136D0098F663 /* VertexBuffer.cpp */,
+				F9BCDB8E2839136E0098F663 /* VertexBuffer.h */,
+				F9BCDB932839136E0098F663 /* VertexBufferAttribute.h */,
+				F9BCDB952839136E0098F663 /* vertexShader.glsl */,
+				F9BCDBA5283913960098F663 /* fragmentShader.glsl */,
+				F9B83C56283A209E00E99EB5 /* glad.c */,
+				F97F98292838E2B800B018C1 /* dependencies */,
+				F97153E82DB575F900D6EE2B /* imgui.cpp */,
+				F97153E92DB575F900D6EE2B /* imgui_draw.cpp */,
+				F97153EA2DB575F900D6EE2B /* imgui_impl_glfw.cpp */,
+				F97153EB2DB575F900D6EE2B /* imgui_impl_opengl3.cpp */,
+				F97153EC2DB575F900D6EE2B /* imgui_widgets.cpp */,
+				F97153F22DB5760F00D6EE2B /* imgui_tables.cpp */,
+			);
+			path = StarSim;
+			sourceTree = "<group>";
+		};
+		F97F982A2838E35D00B018C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F97F982D2838E38200B018C1 /* libglfw.3.3.dylib */,
+				F97F982B2838E35D00B018C1 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F97F981E2838E1ED00B018C1 /* StarSim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F97F98262838E1ED00B018C1 /* Build configuration list for PBXNativeTarget "StarSim" */;
+			buildPhases = (
+				F97F981B2838E1ED00B018C1 /* Sources */,
+				F97F981C2838E1ED00B018C1 /* Frameworks */,
+				F97F981D2838E1ED00B018C1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarSim;
+			productName = StarSim;
+			productReference = F97F981F2838E1ED00B018C1 /* StarSim */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F97F98172838E1ED00B018C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					F97F981E2838E1ED00B018C1 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F97F981A2838E1ED00B018C1 /* Build configuration list for PBXProject "StarSim" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F97F98162838E1ED00B018C1;
+			productRefGroup = F97F98202838E1ED00B018C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F97F981E2838E1ED00B018C1 /* StarSim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F97F981B2838E1ED00B018C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97153F32DB5760F00D6EE2B /* imgui_tables.cpp in Sources */,
+				F97153ED2DB575F900D6EE2B /* imgui_impl_glfw.cpp in Sources */,
+				F97153EE2DB575F900D6EE2B /* imgui_impl_opengl3.cpp in Sources */,
+				F97153EF2DB575F900D6EE2B /* imgui_widgets.cpp in Sources */,
+				F97153F02DB575F900D6EE2B /* imgui.cpp in Sources */,
+				F97153F12DB575F900D6EE2B /* imgui_draw.cpp in Sources */,
+				F9B83C57283A209E00E99EB5 /* glad.c in Sources */,
+				F9BCDB9F2839136E0098F663 /* System.cpp in Sources */,
+				F9BCDB9D2839136E0098F663 /* Renderer.cpp in Sources */,
+				F9BCDBA9283913960098F663 /* Camera.cpp in Sources */,
+				F9BCDB9A2839136E0098F663 /* Star.cpp in Sources */,
+				F9BCDBAC283913960098F663 /* Planet.cpp in Sources */,
+				F9BCDB9E2839136E0098F663 /* VertexArray.cpp in Sources */,
+				F9BCDBAB283913960098F663 /* Panel.cpp in Sources */,
+				F9BCDB9B2839136E0098F663 /* VertexBuffer.cpp in Sources */,
+				F9BCDBAE283913960098F663 /* Body.cpp in Sources */,
+				F97153D32DB570B600D6EE2B /* main.cpp in Sources */,
+				F9BCDB9C2839136E0098F663 /* Shader.cpp in Sources */,
+				F9BCDBA02839136E0098F663 /* Shape.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F97F98242838E1ED00B018C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F97F98252838E1ED00B018C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F97F98272838E1ED00B018C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "/Users/lukelele/Documents/XCodeProjects/StarSim/StarSim/dependencies/include/**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/StarSim/dependencies/library",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F97F98282838E1ED00B018C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "/Users/lukelele/Documents/XCodeProjects/StarSim/StarSim/dependencies/include/**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/StarSim/dependencies/library",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F97F981A2838E1ED00B018C1 /* Build configuration list for PBXProject "StarSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97F98242838E1ED00B018C1 /* Debug */,
+				F97F98252838E1ED00B018C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F97F98262838E1ED00B018C1 /* Build configuration list for PBXNativeTarget "StarSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F97F98272838E1ED00B018C1 /* Debug */,
+				F97F98282838E1ED00B018C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F97F98172838E1ED00B018C1 /* Project object */;
+}
