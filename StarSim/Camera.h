@@ -11,10 +11,21 @@ using namespace glm;
 using std::function;
 
 
+enum Camera_Movement {
+    FORWARD,
+    BACKWARD,
+    LEFT,
+    RIGHT,
+    UP,
+    DOWN
+};
+
+
 class Camera
 {
 public:
 	Camera();
+    
 	void LockOn(vec3 position, float distance);
 	void SetPosition(vec3 position) { m_position = position; }
 	vec3 GetPosition() { return m_position; }
@@ -25,7 +36,9 @@ public:
 	void SetSpeed(float speed) { m_cameraSpeed = speed; }
 	float GetSensitvity() { return m_mouseSensitivity; }
 	void SetSensitivity(float sensitivity) { m_mouseSensitivity = sensitivity; }
-
+    
+    void Move();
+    void LockOn();
 private:
 	vec3 m_position;
 	vec3 m_rotation;

@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F91B0F752DE726EC0090E7F3 /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F91B0F6F2DE726EC0090E7F3 /* imgui.cpp */; };
+		F91B0F762DE726EC0090E7F3 /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F91B0F702DE726EC0090E7F3 /* imgui_draw.cpp */; };
+		F91B0F772DE726EC0090E7F3 /* imgui_impl_glfw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F91B0F712DE726EC0090E7F3 /* imgui_impl_glfw.cpp */; };
+		F91B0F782DE726EC0090E7F3 /* imgui_impl_opengl3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F91B0F722DE726EC0090E7F3 /* imgui_impl_opengl3.cpp */; };
+		F91B0F792DE726EC0090E7F3 /* imgui_widgets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F91B0F742DE726EC0090E7F3 /* imgui_widgets.cpp */; };
+		F91B0F7A2DE726EC0090E7F3 /* imgui_tables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F91B0F732DE726EC0090E7F3 /* imgui_tables.cpp */; };
 		F97153D32DB570B600D6EE2B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F97153D22DB570B100D6EE2B /* main.cpp */; };
-		F97153ED2DB575F900D6EE2B /* imgui_impl_glfw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F97153EA2DB575F900D6EE2B /* imgui_impl_glfw.cpp */; };
-		F97153EE2DB575F900D6EE2B /* imgui_impl_opengl3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F97153EB2DB575F900D6EE2B /* imgui_impl_opengl3.cpp */; };
-		F97153EF2DB575F900D6EE2B /* imgui_widgets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F97153EC2DB575F900D6EE2B /* imgui_widgets.cpp */; };
-		F97153F02DB575F900D6EE2B /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F97153E82DB575F900D6EE2B /* imgui.cpp */; };
-		F97153F12DB575F900D6EE2B /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F97153E92DB575F900D6EE2B /* imgui_draw.cpp */; };
-		F97153F32DB5760F00D6EE2B /* imgui_tables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F97153F22DB5760F00D6EE2B /* imgui_tables.cpp */; };
 		F97F982C2838E35D00B018C1 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97F982B2838E35D00B018C1 /* OpenGL.framework */; };
 		F97F982E2838E38200B018C1 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F97F982D2838E38200B018C1 /* libglfw.3.3.dylib */; };
 		F9B83C57283A209E00E99EB5 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = F9B83C56283A209E00E99EB5 /* glad.c */; };
@@ -43,13 +43,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F91B0F6F2DE726EC0090E7F3 /* imgui.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = imgui.cpp; path = StarSim/dependencies/include/imgui/imgui.cpp; sourceTree = "<group>"; };
+		F91B0F702DE726EC0090E7F3 /* imgui_draw.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_draw.cpp; path = StarSim/dependencies/include/imgui/imgui_draw.cpp; sourceTree = "<group>"; };
+		F91B0F712DE726EC0090E7F3 /* imgui_impl_glfw.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_impl_glfw.cpp; path = StarSim/dependencies/include/imgui/imgui_impl_glfw.cpp; sourceTree = "<group>"; };
+		F91B0F722DE726EC0090E7F3 /* imgui_impl_opengl3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_impl_opengl3.cpp; path = StarSim/dependencies/include/imgui/imgui_impl_opengl3.cpp; sourceTree = "<group>"; };
+		F91B0F732DE726EC0090E7F3 /* imgui_tables.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_tables.cpp; path = StarSim/dependencies/include/imgui/imgui_tables.cpp; sourceTree = "<group>"; };
+		F91B0F742DE726EC0090E7F3 /* imgui_widgets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_widgets.cpp; path = StarSim/dependencies/include/imgui/imgui_widgets.cpp; sourceTree = "<group>"; };
 		F97153D22DB570B100D6EE2B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		F97153E82DB575F900D6EE2B /* imgui.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imgui.cpp; sourceTree = "<group>"; };
-		F97153E92DB575F900D6EE2B /* imgui_draw.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_draw.cpp; sourceTree = "<group>"; };
-		F97153EA2DB575F900D6EE2B /* imgui_impl_glfw.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_impl_glfw.cpp; sourceTree = "<group>"; };
-		F97153EB2DB575F900D6EE2B /* imgui_impl_opengl3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_impl_opengl3.cpp; sourceTree = "<group>"; };
-		F97153EC2DB575F900D6EE2B /* imgui_widgets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_widgets.cpp; sourceTree = "<group>"; };
-		F97153F22DB5760F00D6EE2B /* imgui_tables.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_tables.cpp; sourceTree = "<group>"; };
 		F97F981F2838E1ED00B018C1 /* StarSim */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StarSim; sourceTree = BUILT_PRODUCTS_DIR; };
 		F97F98292838E2B800B018C1 /* dependencies */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dependencies; sourceTree = "<group>"; };
 		F97F982B2838E35D00B018C1 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -102,6 +102,12 @@
 				F97F98212838E1ED00B018C1 /* StarSim */,
 				F97F98202838E1ED00B018C1 /* Products */,
 				F97F982A2838E35D00B018C1 /* Frameworks */,
+				F91B0F6F2DE726EC0090E7F3 /* imgui.cpp */,
+				F91B0F702DE726EC0090E7F3 /* imgui_draw.cpp */,
+				F91B0F712DE726EC0090E7F3 /* imgui_impl_glfw.cpp */,
+				F91B0F722DE726EC0090E7F3 /* imgui_impl_opengl3.cpp */,
+				F91B0F732DE726EC0090E7F3 /* imgui_tables.cpp */,
+				F91B0F742DE726EC0090E7F3 /* imgui_widgets.cpp */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,12 +151,6 @@
 				F9BCDBA5283913960098F663 /* fragmentShader.glsl */,
 				F9B83C56283A209E00E99EB5 /* glad.c */,
 				F97F98292838E2B800B018C1 /* dependencies */,
-				F97153E82DB575F900D6EE2B /* imgui.cpp */,
-				F97153E92DB575F900D6EE2B /* imgui_draw.cpp */,
-				F97153EA2DB575F900D6EE2B /* imgui_impl_glfw.cpp */,
-				F97153EB2DB575F900D6EE2B /* imgui_impl_opengl3.cpp */,
-				F97153EC2DB575F900D6EE2B /* imgui_widgets.cpp */,
-				F97153F22DB5760F00D6EE2B /* imgui_tables.cpp */,
 			);
 			path = StarSim;
 			sourceTree = "<group>";
@@ -221,12 +221,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F97153F32DB5760F00D6EE2B /* imgui_tables.cpp in Sources */,
-				F97153ED2DB575F900D6EE2B /* imgui_impl_glfw.cpp in Sources */,
-				F97153EE2DB575F900D6EE2B /* imgui_impl_opengl3.cpp in Sources */,
-				F97153EF2DB575F900D6EE2B /* imgui_widgets.cpp in Sources */,
-				F97153F02DB575F900D6EE2B /* imgui.cpp in Sources */,
-				F97153F12DB575F900D6EE2B /* imgui_draw.cpp in Sources */,
 				F9B83C57283A209E00E99EB5 /* glad.c in Sources */,
 				F9BCDB9F2839136E0098F663 /* System.cpp in Sources */,
 				F9BCDB9D2839136E0098F663 /* Renderer.cpp in Sources */,
@@ -237,6 +231,12 @@
 				F9BCDBAB283913960098F663 /* Panel.cpp in Sources */,
 				F9BCDB9B2839136E0098F663 /* VertexBuffer.cpp in Sources */,
 				F9BCDBAE283913960098F663 /* Body.cpp in Sources */,
+				F91B0F752DE726EC0090E7F3 /* imgui.cpp in Sources */,
+				F91B0F762DE726EC0090E7F3 /* imgui_draw.cpp in Sources */,
+				F91B0F772DE726EC0090E7F3 /* imgui_impl_glfw.cpp in Sources */,
+				F91B0F782DE726EC0090E7F3 /* imgui_impl_opengl3.cpp in Sources */,
+				F91B0F792DE726EC0090E7F3 /* imgui_widgets.cpp in Sources */,
+				F91B0F7A2DE726EC0090E7F3 /* imgui_tables.cpp in Sources */,
 				F97153D32DB570B600D6EE2B /* main.cpp in Sources */,
 				F9BCDB9C2839136E0098F663 /* Shader.cpp in Sources */,
 				F9BCDBA02839136E0098F663 /* Shape.cpp in Sources */,
