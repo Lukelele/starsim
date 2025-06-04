@@ -9,7 +9,7 @@ void Panel::DrawGameMenu()
 
 	ImGui::Text("Pause the Game");
 	ImGui::SameLine(0, 15);
-	ImGui::Checkbox("", (bool*)&m_paused);
+	ImGui::Checkbox("paused", (bool*)&m_paused);
 	ImGui::Text("Game Settings");
 	ImGui::InputFloat("FPS Limit", (float*)&m_FPSLimit, 1, 10);
 	ImGui::InputFloat("Game Speed", (float*)&m_gameSpeed, 1);

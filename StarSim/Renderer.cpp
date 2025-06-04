@@ -17,6 +17,10 @@ Renderer::~Renderer()
 
 void Renderer::InitWindow(int x, int y, const char* title) {
 	glfwWindowHint(GLFW_SAMPLES, 4);
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 1);
+    glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+    glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);  // Required on Mac
 
 	window = glfwCreateWindow(x, y, title, NULL, NULL);
 	if (!window)
@@ -27,6 +31,12 @@ void Renderer::InitWindow(int x, int y, const char* title) {
 	}
 
 	glfwMakeContextCurrent(window);
+    
+    if (!gladLoadGLLoader((GLADloadproc) glfwGetProcAddress))
+       {
+           std::cout << "Failed to initialize OpenGL context" << std::endl;
+           return;
+       }
 
 	glEnable(GL_DEPTH_TEST);
 	glEnable(GL_MULTISAMPLE);
@@ -35,7 +45,7 @@ void Renderer::InitWindow(int x, int y, const char* title) {
 	ImGuiIO& io = ImGui::GetIO(); (void)io;
 	ImGui::StyleColorsDark();
 	ImGui_ImplGlfw_InitForOpenGL(window, true);
-//	ImGui_ImplOpenGL3_Init((char*)glGetString(GL_NUM_SHADING_LANGUAGE_VERSIONS));
+    ImGui_ImplOpenGL3_Init("#version 410");
 
 }
 
