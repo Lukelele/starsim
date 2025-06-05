@@ -15,7 +15,7 @@ uniform mat4 u_scaleMatrix;
 
 
 void main() {
-	normals = normalize(vec3( u_rotationMatrix * u_scaleMatrix * vec4(vertexNormal, 1)));
-	positions = u_translationMatrix * u_rotationMatrix * u_scaleMatrix * vec4(vertexPosition, 1);
-	gl_Position = u_projectionMatrix * u_viewMatrix * u_translationMatrix * u_rotationMatrix * u_scaleMatrix * vec4(vertexPosition, 1);
+    normals = normalize(vec3( u_rotationMatrix * u_scaleMatrix * vec4(vertexNormal, 1)));
+    positions = u_translationMatrix * u_rotationMatrix * u_scaleMatrix * vec4(vertexPosition, 1);
+    gl_Position = u_projectionMatrix * u_viewMatrix * u_translationMatrix * u_rotationMatrix * u_scaleMatrix * vec4(vertexPosition, 1);
 }

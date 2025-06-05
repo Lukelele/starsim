@@ -131,7 +131,7 @@ GLuint Shader::getUniformLocation(GLuint programID, const char* uniformName) {
 	if (uniformLocations[uniformName] == 0) {
 		uniformLocations[uniformName] = glGetUniformLocation(programID, uniformName);
 		if (uniformLocations[uniformName] == -1) {
-			cout << "Uniform not found" << endl;
+			cout << "Uniform: " << uniformName << " Not Found." << endl;
 		}
 	}
 

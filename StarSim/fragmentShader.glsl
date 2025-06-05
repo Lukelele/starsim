@@ -11,9 +11,9 @@ uniform vec4 u_colour;
 
 
 void main() {
-	vec3 lightVector = normalize(u_lightLocation - vec3(positions));
+    vec3 lightVector = normalize(u_lightLocation - vec3(positions));
 
-	float lightIntensity = clamp(dot(lightVector, normals), 0, 1);
+    float lightIntensity = clamp(dot(lightVector, normals), 0, 1);
 
-	fragmentColour = clamp(lightIntensity * u_colour + u_ambientLight, 0, 1);
+    fragmentColour = clamp(lightIntensity * u_colour + u_ambientLight, 0, 1);
 }

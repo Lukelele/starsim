@@ -50,6 +50,7 @@
 		F91B0F732DE726EC0090E7F3 /* imgui_tables.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_tables.cpp; path = StarSim/dependencies/include/imgui/imgui_tables.cpp; sourceTree = "<group>"; };
 		F91B0F742DE726EC0090E7F3 /* imgui_widgets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_widgets.cpp; path = StarSim/dependencies/include/imgui/imgui_widgets.cpp; sourceTree = "<group>"; };
 		F97153D22DB570B100D6EE2B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F9765DB42DF1CE5200BF4B7C /* sphere.obj */ = {isa = PBXFileReference; lastKnownFileType = text; path = sphere.obj; sourceTree = "<group>"; };
 		F97F981F2838E1ED00B018C1 /* StarSim */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StarSim; sourceTree = BUILT_PRODUCTS_DIR; };
 		F97F98292838E2B800B018C1 /* dependencies */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dependencies; sourceTree = "<group>"; };
 		F97F982B2838E35D00B018C1 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -136,6 +137,7 @@
 				F9BCDB982839136E0098F663 /* Settings.h */,
 				F9BCDB922839136E0098F663 /* System.cpp */,
 				F9BCDB8B2839136D0098F663 /* System.h */,
+				F9765DB42DF1CE5200BF4B7C /* sphere.obj */,
 				F9BCDB8A2839136D0098F663 /* Shader.cpp */,
 				F9BCDB912839136E0098F663 /* Shader.h */,
 				F9BCDB942839136E0098F663 /* Shape.cpp */,
