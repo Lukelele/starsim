@@ -98,12 +98,7 @@ void Renderer::Render(System& system, Shader& shader, GLenum drawType) {
 }
 
 void Renderer::Render(System& system, Shader& shader, Camera &camera, GLenum drawType) {
-//	if (GetAsyncKeyState(VK_LBUTTON)) {
-//		camera.SetRotation(mat3(rotate((float)(-camera.GetMouseDelta().x * 0.01), vec3(0, 1, 0))) * camera.GetRotation());
-//		camera.SetRotation(mat3(rotate((float)(-camera.GetMouseDelta().y * 0.01), cross(camera.GetRotation(), vec3(0, 1, 0)))) * camera.GetRotation());
-//	}
-
-	mat4 cameraViewMatrix = lookAt(camera.GetPosition(), camera.GetPosition() + camera.GetRotation(), vec3(0, 1, 0));
+	mat4 cameraViewMatrix = camera.GetViewMatrix();
 	shader.SendUniform("u_viewMatrix", cameraViewMatrix);
 
 	shader.Bind();

@@ -1,4 +1,5 @@
 #include "Renderer.h"
+#include <chrono>
 
 
 using namespace std;
@@ -51,9 +52,19 @@ int main() {
     float addScale = 1;
     bool lock = false;
 
+    // Delta time calculation
+    float deltaTime = 0.0f;
+    float lastFrame = 0.0f;
 
     while (!glfwWindowShouldClose(renderer.GetWindow()))
     {
+        // Calculate delta time
+        float currentFrame = glfwGetTime();
+        deltaTime = currentFrame - lastFrame;
+        lastFrame = currentFrame;
+
+        // Process camera input
+        camera.ProcessInput(renderer.GetWindow(), deltaTime);
         mat4 projectionMatrix = perspective(radians(90.0f), 4.0f / 3.0f, 0.1f, 1000000.0f);
 
         shader.SendUniform("u_projectionMatrix", projectionMatrix);
@@ -81,6 +92,30 @@ int main() {
 
         {
             ImGui::Begin("World");
+
+            // Camera Controls Section
+            if (ImGui::CollapsingHeader("Camera Controls")) {
+                ImGui::Text("Controls:");
+                ImGui::BulletText("WASD - Move camera");
+                ImGui::BulletText("Space - Move up");
+                ImGui::BulletText("Left Shift - Move down");
+                ImGui::BulletText("Right Mouse Button + Mouse - Look around");
+                
+                ImGui::Separator();
+                
+                float speed = camera.GetSpeed();
+                if (ImGui::SliderFloat("Camera Speed", &speed, 0.1f, 50.0f)) {
+                    camera.SetSpeed(speed);
+                }
+                
+                float sensitivity = camera.GetSensitvity();
+                if (ImGui::SliderFloat("Mouse Sensitivity", &sensitivity, 0.01f, 1.0f)) {
+                    camera.SetSensitivity(sensitivity);
+                }
+                
+                vec3 pos = camera.GetPosition();
+                ImGui::Text("Position: (%.2f, %.2f, %.2f)", pos.x, pos.y, pos.z);
+            }
 
             ImGui::Text("Add to Position");
             ImGui::InputFloat3("addPosition", (float*)&addPosition);
